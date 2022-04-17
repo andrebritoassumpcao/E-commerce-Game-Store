@@ -55,7 +55,10 @@
     grid-template-columns: 200px 200px 200px;
     margin-top: 80px;
     grid-column-gap: 250px ;
+    row-gap: 4em;
 }
+
+
 
 .box {
     display: grid;
@@ -69,12 +72,20 @@
 
 }
 
+.box p{
+    color: #fff;
+
+}
+
 .box img{
     margin-bottom: 0px;
     margin-left: 45px;
     width: 140px;
     height: 180px;
+    object-fit: ;
 }
+
+
 
 .btn_pay {
     display: grid;
