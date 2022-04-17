@@ -1,0 +1,106 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 1px solid #aaa;
+    padding: 1em;
+    
+  }
+  
+ .list {
+   display: flex;
+   list-style: none;
+   align-items: center;
+ }
+
+ .item {
+   margin-right: 15em;
+ }
+
+ .item a {
+   position: absolute;
+   top: 195px;
+   margin-left: -90px;
+   color: #fff;
+   text-decoration: none;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 19px;
+ }
+
+ .item a:hover {
+   color: #610094;
+ }
+
+ .todos {
+   width: 20px;
+   height: 20px;
+   margin-right: 1em;
+ }
+ .acao {
+   width: 20px;
+   height: 20px;
+   margin-right: 1em;
+ }
+ .aventura {
+   width: 23px;
+   height: 23px;
+   margin-right: 1em;
+ }
+ .esportes {
+   width: 24px;
+   height: 24px;
+   margin-right: 1em;
+ }
+ .estrategia {
+   width: 20px;
+   height: 20px;
+   margin-right: 1em;
+ }
+ .ofertas {
+   width: 20px;
+   height: 20px;
+   margin-right: 1em;
+ }
+
+ .logo {
+  margin-bottom: 30px;
+  width: 180px;
+  height: 180px;
+ }
+
+.cart {
+  margin-top: 60px;
+  margin-right: 0;
+  width: 35px;
+  height: 35px;
+}
+
+.fale_conosco {
+  display: grid;
+  grid-template-columns: 20px 150px;
+  column-gap: 25px;
+  margin-top: 60px;
+  margin-left: 180px;
+  font-size: 12px;
+
+}
+.fale_conosco h2 {
+ margin-top: 10px;
+
+}
+
+.bem_vindo{
+  display: grid;
+  grid-template-columns: 20px 150px;
+  column-gap: 25px;
+  margin-top: 60px;
+  margin-left: 10px;
+  font-size: 12px;
+
+
+}
+
+.bem_vindo h2{
+  margin-top: 10px;
+}

@@ -1,0 +1,25 @@
+
+.btn {
+    position: relative;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: 75%;
+    left: 75%;
+    width: 160px;
+    height: 55px;
+    padding: 8px;
+    margin: -15px 0 0 -30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    background: rgba(196, 196, 196, 0.1);
+    border: 5px solid #610094;
+    box-sizing: border-box;
+    border-radius: 2px;
+    
+    }
+
+    .btn:hover {
+        color: #610094;
+    }

@@ -1,0 +1,10 @@
+.btn {
+    display: grid;
+    margin-left: 25px;
+    grid-template-columns: 50px 150px;
+    border: 5px solid #610094;
+    color: aqua;
+    background-color: aliceblue;
+    width: 200px;
+}
+
